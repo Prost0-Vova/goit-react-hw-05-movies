@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Container, Head, List, Item, RouteLink, Icon, Text } from './MoviesList.styled';
+import {Container, List, Item, RouteLink, Icon, Text } from './MoviesList.styled';
 import { PiFilmSlateBold } from 'react-icons/pi';
 
 export const MoviesList = ({trends}) => {

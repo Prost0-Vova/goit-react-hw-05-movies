@@ -1,9 +1,9 @@
 import { Suspense } from 'react';
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Loading from 'components/Loader/Loader';
 import { PiFilmSlateBold } from 'react-icons/pi';
-import { Container, NavDiv, Header, Icon, NavigationLink, Footer, Text } from './Layout.styled'
+import { Container, NavDiv, Header, Icon, NavigationLink, Footer } from './Layout.styled'
 
 
 
