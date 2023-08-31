@@ -10,7 +10,7 @@ import Reviews from 'components/Reviews/Reviews';
 
 export const App = () => {
   return (
-    <Router> 
+    
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -22,7 +22,6 @@ export const App = () => {
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>
-    </Router>
   );
 };
 
