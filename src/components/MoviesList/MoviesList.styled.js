@@ -16,7 +16,7 @@ padding-top:2px;
 margin-right:10px;
 `;
 
-export const Text = styled.a`
+export const Text = styled.div`
 display: flex;
 color: rgb(60, 122, 110);
 &:hover{
