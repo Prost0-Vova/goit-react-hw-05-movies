@@ -14,11 +14,14 @@ export const Home = () => {
           setIsLoading(true);
           const films = await fetchTrends();
           setTrends(films);
-          setIsLoading(false);
+          
         } catch (error) {
           setError(true);
-          setIsLoading(false);
+          
         }
+         finally{
+          setIsLoading(false);
+         }
       };
       data();
     }, []);

@@ -29,7 +29,7 @@ export const Credits = () => {
 
   return (
     <CreditContainer>
-      {credit.length !== 0 && (
+      {credit.length !== 0 ? (
         <>
           <CreditHead>Credits</CreditHead>
           <CreditList>
@@ -52,8 +52,8 @@ export const Credits = () => {
             ))}
           </CreditList>
         </>
-      )}
-      {credit.length === 0 && (
+      )
+      : (
         <div>Actors aren't available to show right now.</div>
       )}
     </CreditContainer>

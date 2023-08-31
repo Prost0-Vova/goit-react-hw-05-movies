@@ -24,10 +24,13 @@ export const MoviesSearch = () => {
             const results = await searchMovies(query);
     
             setTrends(results);
-            setLoading(false);
+            
           } catch (error) {
             console.error('Error fetching movies:', error);
             setTrends([]);
+            
+          }
+          finally{
             setLoading(false);
           }
         };
